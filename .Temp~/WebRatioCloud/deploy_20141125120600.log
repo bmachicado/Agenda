@@ -1,0 +1,13 @@
+[2014-11-25 12:06:00] Uploading application on server [54.229.13.249]
+[2014-11-25 12:06:00] Computing changes...
+[2014-11-25 12:06:03] Found 5 file(s) changed
+[2014-11-25 12:06:03] --------------------------------------------
+[2014-11-25 12:06:03] UPDATE                  /page1_ajax.jsp
+[2014-11-25 12:06:03] REMOTE_UPDATE           /WEB-INF/descr/page1.descr
+[2014-11-25 12:06:03] UPDATE                  /WEB-INF/descr/mssu2.descr
+[2014-11-25 12:06:03] UPDATE                  /page1.jsp
+[2014-11-25 12:06:03] UPDATE          RESTART /WEB-INF/classes/ApplicationResources_en.properties
+[2014-11-25 12:06:03] --------------------------------------------
+[2014-11-25 12:06:03] Stopping application server
+[2014-11-25 12:06:15] Uploading changes (92.1 KB)
+[2014-11-25 12:06:16] Starting application server

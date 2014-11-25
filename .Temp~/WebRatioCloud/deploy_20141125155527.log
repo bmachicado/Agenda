@@ -1,0 +1,8 @@
+[2014-11-25 15:55:27] Uploading application on server [54.229.13.249]
+[2014-11-25 15:55:27] Computing changes...
+[2014-11-25 15:55:30] Found 2 file(s) changed
+[2014-11-25 15:55:30] --------------------------------------------
+[2014-11-25 15:55:30] REMOTE_UPDATE           /WEB-INF/descr/page1.descr
+[2014-11-25 15:55:30] REMOTE_ADD              /WEB-INF/descr/_redeploy
+[2014-11-25 15:55:30] --------------------------------------------
+[2014-11-25 15:55:30] Uploading changes (0 bytes)

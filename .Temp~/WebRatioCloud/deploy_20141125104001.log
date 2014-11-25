@@ -1,0 +1,11 @@
+[2014-11-25 10:40:01] Uploading application on server [54.229.13.249]
+[2014-11-25 10:40:01] Computing changes...
+[2014-11-25 10:40:04] Found 5 file(s) changed
+[2014-11-25 10:40:04] --------------------------------------------
+[2014-11-25 10:40:04] UPDATE                  /page1_ajax.jsp
+[2014-11-25 10:40:04] REMOTE_UPDATE           /WEB-INF/descr/page1.descr
+[2014-11-25 10:40:04] UPDATE                  /WEB-INF/descr/mciu2.descr
+[2014-11-25 10:40:04] UPDATE                  /page1.jsp
+[2014-11-25 10:40:04] REMOTE_ADD              /WEB-INF/descr/_redeploy
+[2014-11-25 10:40:04] --------------------------------------------
+[2014-11-25 10:40:04] Uploading changes (84.2 KB)

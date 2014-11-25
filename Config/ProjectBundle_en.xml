@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle>
+  <Entry key="areyousure">esta seguro?</Entry>
+  <Entry key="logging">autentificandose</Entry>
+  <Entry key="noappointments">no hay citas activas.</Entry>
+  <Entry key="saving">guardando</Entry>
+  <Entry key="updating">Actualizando Calendario</Entry>
+  <Entry key="Welcome">Bienvenido</Entry>
+</Bundle>

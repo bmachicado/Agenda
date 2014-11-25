@@ -1,0 +1,14 @@
+[2014-11-25 10:52:11] Uploading application on server [54.229.13.249]
+[2014-11-25 10:52:11] Computing changes...
+[2014-11-25 10:52:18] Found 8 file(s) changed
+[2014-11-25 10:52:18] --------------------------------------------
+[2014-11-25 10:52:18] UPDATE                  /page1_ajax.jsp
+[2014-11-25 10:52:18] REMOTE_UPDATE           /WEB-INF/descr/page1.descr
+[2014-11-25 10:52:18] UPDATE                  /WEB-INF/descr/pwu3.descr
+[2014-11-25 10:52:18] UPDATE                  /page1.jsp
+[2014-11-25 10:52:18] UPDATE                  /WEB-INF/descr/seu22.descr
+[2014-11-25 10:52:18] UPDATE                  /WEB-INF/descr/pwu1.descr
+[2014-11-25 10:52:18] UPDATE                  /WEB-INF/descr/dlu1.descr
+[2014-11-25 10:52:18] REMOTE_ADD              /WEB-INF/descr/_redeploy
+[2014-11-25 10:52:18] --------------------------------------------
+[2014-11-25 10:52:18] Uploading changes (87.4 KB)
