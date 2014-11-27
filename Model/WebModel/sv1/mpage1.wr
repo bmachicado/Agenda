@@ -1,6 +1,6 @@
 <MasterPage xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="355" gr:y="-260" id="sv1#mpage1" name="Master Page">
   <ContentUnits>
-    <GetUnit id="sv1#mpage1#gtu1g" name="obtener usuario actual" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
+    <GetUnit id="sv1#mpage1#gtu1g" name="Obtener usuario actual" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
       <Link id="sv1#mpage1#gtu1g#ln1g" name="Link54" to="sv1#mpage1#dau1g" type="transport" automaticCoupling="true" validate="true"/>
     </GetUnit>
     <DataUnit id="sv1#mpage1#dau1g" entity="User" name="Usuario" gr:x="155" gr:y="0" displayAttributes="userName" linkOrder="sv1#mpage1#dau1g#ln2g">
