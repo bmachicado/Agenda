@@ -1,6 +1,6 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym8#page8" name="Appointment" layout:pageLayout="WRDefault/Empty" gr:x="485" gr:y="-70">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym8#page8" name="Cita" layout:pageLayout="WRDefault/Empty" gr:x="485" gr:y="-70">
   <ContentUnits>
-    <EntryUnit id="mov1#mpkg2#hym8#page8#enu7" name="Appointment Information" linkOrder="mov1#mpkg2#hym8#page8#enu7#ln170 mov1#mpkg2#hym8#page8#enu7#ln115 mov1#mpkg2#hym8#page8#enu7#ln117 mov1#mpkg2#hym8#page8#enu7#ln122 mov1#mpkg2#hym8#page8#enu7#ln49" gr:x="25" gr:y="310" entity="ent1" fieldOrder="mov1#mpkg2#hym8#page8#enu7#fld16 mov1#mpkg2#hym8#page8#enu7#fld20 mov1#mpkg2#hym8#page8#enu7#fld17 mov1#mpkg2#hym8#page8#enu7#fld18 mov1#mpkg2#hym8#page8#enu7#sfld2 mov1#mpkg2#hym8#page8#enu7#sfld1 mov1#mpkg2#hym8#page8#enu7#fld19 mov1#mpkg2#hym8#page8#enu7#sfld3 mov1#mpkg2#hym8#page8#enu7#fld21 mov1#mpkg2#hym8#page8#enu7#msfld2 mov1#mpkg2#hym8#page8#enu7#fld25 mov1#mpkg2#hym8#page8#enu7#fld24">
+    <EntryUnit id="mov1#mpkg2#hym8#page8#enu7" name="Informacion de Cita" linkOrder="mov1#mpkg2#hym8#page8#enu7#ln170 mov1#mpkg2#hym8#page8#enu7#ln115 mov1#mpkg2#hym8#page8#enu7#ln117 mov1#mpkg2#hym8#page8#enu7#ln122 mov1#mpkg2#hym8#page8#enu7#ln49" gr:x="25" gr:y="310" entity="ent1" fieldOrder="mov1#mpkg2#hym8#page8#enu7#fld16 mov1#mpkg2#hym8#page8#enu7#fld20 mov1#mpkg2#hym8#page8#enu7#fld17 mov1#mpkg2#hym8#page8#enu7#fld18 mov1#mpkg2#hym8#page8#enu7#sfld2 mov1#mpkg2#hym8#page8#enu7#sfld1 mov1#mpkg2#hym8#page8#enu7#fld19 mov1#mpkg2#hym8#page8#enu7#sfld3 mov1#mpkg2#hym8#page8#enu7#fld21 mov1#mpkg2#hym8#page8#enu7#msfld2 mov1#mpkg2#hym8#page8#enu7#fld25 mov1#mpkg2#hym8#page8#enu7#fld24">
       <Field id="mov1#mpkg2#hym8#page8#enu7#fld16" name="subject" type="string" modifiable="true" attribute="ent1#att2">
         <VRules>
           <MandatoryValidationRule id="mov1#mpkg2#hym8#page8#enu7#fld16#mnd10" name="Mandatory Field"/>
@@ -97,7 +97,7 @@
       <Link id="mov1#mpkg2#hym8#page8#gtu3#ln126" name="Link96" to="mov1#mpkg2#hym8#page8#seu5" type="transport" automaticCoupling="true" validate="true"/>
       <Link id="mov1#mpkg2#hym8#page8#gtu3#ln169" name="Link169" to="mov1#mpkg2#hym8#opg9#cru8" type="transport" automaticCoupling="true" validate="true"/>
     </GetUnit>
-    <MultiMessageUnit gr:x="250" gr:y="235" id="mov1#mpkg2#hym8#page8#mssu6" name="Information Message"/>
+    <MultiMessageUnit gr:x="250" gr:y="235" id="mov1#mpkg2#hym8#page8#mssu6" name="Mensaje de Informacion"/>
     <GetUnit gr:x="0" gr:y="0" id="mov1#mpkg2#hym8#page8#gtu1" name="Get Current Group" contextParameters="GroupCtxParam">
       <Link id="mov1#mpkg2#hym8#page8#gtu1#ln32" name="Link32" to="mov1#mpkg2#hym8#page8#seu5" automaticCoupling="true" type="transport" validate="true"/>
     </GetUnit>

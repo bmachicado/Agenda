@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym9#page9" name="Comment" layout:pageLayout="WRDefault/Empty" gr:x="285" gr:y="175">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym9#page9" name="Comentario" layout:pageLayout="WRDefault/Empty" gr:x="285" gr:y="175">
   <ContentUnits>
     <EntryUnit id="mov1#mpkg2#hym9#page9#enu8" name="Comment Information" linkOrder="mov1#mpkg2#hym9#page9#enu8#ln133" gr:x="0" gr:y="0" entity="ent6">
       <Field id="mov1#mpkg2#hym9#page9#enu8#fld26" name="appointment key" type="string" modifiable="false" preloaded="true" hidden="true"/>

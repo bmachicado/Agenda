@@ -1,4 +1,4 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg3#hym11" name="Export Excel" gr:x="0" gr:y="0" gr:icon="ModulesIcons/ExcelDocument.png">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg3#hym11" name="Exportar a Excel" gr:x="0" gr:y="0" gr:icon="ModulesIcons/ExcelDocument.png">
   <OperationUnits>
     <InputCollectorUnit id="mov1#mpkg3#hym11#icu13" name="Input" gr:x="85" gr:y="175">
       <InputCollectorParameter id="mov1#mpkg3#hym11#icu13#icp15" name="Calendar Key"/>

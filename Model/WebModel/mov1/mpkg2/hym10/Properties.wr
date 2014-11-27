@@ -23,10 +23,10 @@
         <LinkParameter id="mov1#mpkg2#hym10#icu12#ln139#par139" name="Appointment Key" source="mov1#mpkg2#hym10#icu12#icp13" target="mov1#mpkg2#hym10#opg8#seu19#su68#kcond25.ent1#att1"/>
       </Link>
     </InputCollectorUnit>
-    <NoOpOperationUnit id="mov1#mpkg2#hym10#opu3" name="Refresh All Day Event" gr:x="660" gr:y="-460">
+    <NoOpOperationUnit id="mov1#mpkg2#hym10#opu3" name="Refrescar los eventos de todo el dia" gr:x="660" gr:y="-460">
       <OKLink id="mov1#mpkg2#hym10#opu3#oln47" name="OKLink47" to="mov1#mpkg2#hym10#page11" automaticCoupling="true" preserveForm="true" gr:bendpoints="-2,115,688,-95"/>
     </NoOpOperationUnit>
-    <DeleteUnit id="mov1#mpkg2#hym10#dlu2" name="Delete Appointment" gr:x="685" gr:y="-200" entity="ent1">
+    <DeleteUnit id="mov1#mpkg2#hym10#dlu2" name="borrar cita" gr:x="685" gr:y="-200" entity="ent1">
       <Selector id="mov1#mpkg2#hym10#dlu2#su49" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="mov1#mpkg2#hym10#dlu2#su49#kcond8" name="Appointment" predicate="in" implied="false"/>
       </Selector>
@@ -35,15 +35,15 @@
         <LinkParameter id="mov1#mpkg2#hym10#dlu2#kln4#par140" name="Message" target="mov1#mpkg2#hym10#page11#mssu5.shownMessages" sourceValue="It was not possible to delete the appointment."/>
       </KOLink>
     </DeleteUnit>
-    <ModuleInstanceUnit id="mov1#mpkg2#hym10#miu12" name="Comments" gr:x="505" gr:y="-465" moduleId="mov1#mpkg2#hym9">
+    <ModuleInstanceUnit id="mov1#mpkg2#hym10#miu12" name="Commentarios" gr:x="505" gr:y="-465" moduleId="mov1#mpkg2#hym9">
       <OKLink id="mov1#mpkg2#hym10#miu12#oln49" name="OKLink49" to="mov1#mpkg2#hym10#page11" preserveForm="true"/>
       <KOLink id="mov1#mpkg2#hym10#miu12#kln5" name="KOLink5" to="mov1#mpkg2#hym10#page11#mssu5" preserveForm="true">
         <LinkParameter id="mov1#mpkg2#hym10#miu12#kln5#par141" name="Message" target="mov1#mpkg2#hym10#page11#mssu5.shownMessages" sourceValue="There was an error saving your comment"/>
       </KOLink>
     </ModuleInstanceUnit>
-    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu9" name="Success Modify" gr:x="1740" gr:y="140"/>
-    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu10" name="Cancel" gr:x="1740" gr:y="315"/>
-    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu11" name="Success Delete" gr:x="1740" gr:y="-195"/>
+    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu9" name="modificado" gr:x="1740" gr:y="140"/>
+    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu10" name="Cancelar" gr:x="1740" gr:y="315"/>
+    <OKCollectorUnit id="mov1#mpkg2#hym10#okcu11" name="borrado" gr:x="1740" gr:y="-195"/>
   </OperationUnits>
   <Comment xml:space="preserve">Hybrid Module that contains both the form and the operations needed to edit an Appointment.</Comment>
 </HybridModule>

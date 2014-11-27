@@ -42,7 +42,7 @@
       </Selector>
       <OKLink id="mov2#mpkg5#hym3#mfu1#oln6" name="OKLink98" to="mov2#mpkg5#hym3#dlu3"/>
     </ModifyUnit>
-    <OKCollectorUnit id="mov2#mpkg5#hym3#okcu1" name="Success" gr:x="950" gr:y="280"/>
+    <OKCollectorUnit id="mov2#mpkg5#hym3#okcu1" name="Exito" gr:x="950" gr:y="280"/>
     <OKCollectorUnit id="mov2#mpkg5#hym3#okcu2" name="Cancelar" gr:x="950" gr:y="390"/>
   </OperationUnits>
   <Comment xml:space="preserve">Hybrid Module that allows to delete a group.</Comment>

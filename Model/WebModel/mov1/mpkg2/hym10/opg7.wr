@@ -1,6 +1,6 @@
-<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg2#hym10#opg7" name="Save Changes" transaction="true" gr:x="505" gr:y="-70">
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg2#hym10#opg7" name="Guardar Cambios" transaction="true" gr:x="505" gr:y="-70">
   <OperationUnits>
-    <ModifyUnit id="mov1#mpkg2#hym10#opg7#mfu2" name="Modify Appointment" gr:x="65" gr:y="10" entity="ent1">
+    <ModifyUnit id="mov1#mpkg2#hym10#opg7#mfu2" name="Modificar Cita" gr:x="65" gr:y="10" entity="ent1">
       <Selector id="mov1#mpkg2#hym10#opg7#mfu2#su54" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="mov1#mpkg2#hym10#opg7#mfu2#su54#kcond11" name="Appointment" predicate="in" implied="false"/>
       </Selector>
@@ -47,7 +47,7 @@
         <LinkParameter id="mov1#mpkg2#hym10#opg7#cnu2#oln53#par164" name="Appointment Key" source="sourceent1#att1" target="mov1#mpkg2#hym10#opg7#cnu4#su64#kcond21.ent1#att1"/>
       </OKLink>
     </ConnectUnit>
-    <ModuleInstanceUnit id="mov1#mpkg2#hym10#opg7#miu13" name="Send Update email" gr:x="965" gr:y="320" moduleId="mov1#mpkg2#opm2">
+    <ModuleInstanceUnit id="mov1#mpkg2#hym10#opg7#miu13" name="Enviar Correo de actualizacion" gr:x="965" gr:y="320" moduleId="mov1#mpkg2#opm2">
       <OKLink id="mov1#mpkg2#hym10#opg7#miu13#oln54" name="OKLink54" to="mov1#mpkg2#hym10#okcu9" automaticCoupling="true"/>
     </ModuleInstanceUnit>
     <ReconnectUnit id="mov1#mpkg2#hym10#opg7#rcnu2" name="Reconnect Appointment With Attendees Shared Calendar" gr:x="265" gr:y="150" relationship="rel22#role12">

@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym8#page7" name="Reminder" layout:pageLayout="WRDefault/Empty" gr:x="275" gr:y="115">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg2#hym8#page7" name="Recordatorio" layout:pageLayout="WRDefault/Empty" gr:x="275" gr:y="115">
   <ContentUnits>
     <EntryUnit id="mov1#mpkg2#hym8#page7#enu6" name="Message Information" linkOrder="mov1#mpkg2#hym8#page7#enu6#ln113" gr:x="0" gr:y="0">
       <Field id="mov1#mpkg2#hym8#page7#enu6#fld15" name="message" type="text" modifiable="true" contentType="text/html" preloaded="true">

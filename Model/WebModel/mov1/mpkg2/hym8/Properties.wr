@@ -11,8 +11,8 @@
         <LinkParameter id="mov1#mpkg2#hym8#icu9#oln26#par91" name="Selected Date" source="mov1#mpkg2#hym8#icu9#icp8" target="mov1#mpkg2#hym8#page8#enu7#fld17_slot"/>
       </OKLink>
     </InputCollectorUnit>
-    <OKCollectorUnit id="mov1#mpkg2#hym8#okcu5" name="Success" gr:x="1950" gr:y="560"/>
-    <OKCollectorUnit id="mov1#mpkg2#hym8#okcu6" name="Cancel" gr:x="1950" gr:y="685"/>
+    <OKCollectorUnit id="mov1#mpkg2#hym8#okcu5" name="Exito" gr:x="1950" gr:y="560"/>
+    <OKCollectorUnit id="mov1#mpkg2#hym8#okcu6" name="Cancelar" gr:x="1950" gr:y="685"/>
   </OperationUnits>
   <Comment xml:space="preserve">Hybrid Module that contains the operations needed to save an Appointment.</Comment>
 </HybridModule>

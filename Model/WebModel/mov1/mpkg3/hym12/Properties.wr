@@ -1,9 +1,9 @@
 <HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg3#hym12" name="Guardar Calendario" gr:x="0" gr:y="65" gr:icon="ModulesIcons/Save.png">
   <OperationUnits>
-    <CreateUnit id="mov1#mpkg3#hym12#cru7" name="Create Calendar" gr:x="565" gr:y="175" entity="ent3">
+    <CreateUnit id="mov1#mpkg3#hym12#cru7" name="Crear Calendario" gr:x="565" gr:y="175" entity="ent3">
       <OKLink id="mov1#mpkg3#hym12#cru7#oln65" name="OKLink65" to="mov1#mpkg3#hym12#okcu12"/>
     </CreateUnit>
-    <GetUnit id="mov1#mpkg3#hym12#gtu9" name="Get Current User" gr:x="565" gr:y="50" contextParameters="UserCtxParam">
+    <GetUnit id="mov1#mpkg3#hym12#gtu9" name="Obtener Usuario actual" gr:x="565" gr:y="50" contextParameters="UserCtxParam">
       <Link id="mov1#mpkg3#hym12#gtu9#ln159" name="Link159" to="mov1#mpkg3#hym12#cru7" type="transport" validate="true">
         <LinkParameter id="mov1#mpkg3#hym12#gtu9#ln159#par181" name="User Key" source="mov1#mpkg3#hym12#gtu9.UserCtxParam" target="mov1#mpkg3#hym12#cru7.rel21#role10.userOID"/>
       </Link>

@@ -1,15 +1,15 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg3#hym11#page12" name="Calendar Appointments" layout:style="Excel" layout:layoutManager="standard" gr:x="395" gr:y="75">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#mpkg3#hym11#page12" name="Calendario de Citas" layout:style="Excel" layout:layoutManager="standard" gr:x="395" gr:y="75">
   <ContentUnits>
-    <MultiDataUnit id="mov1#mpkg3#hym11#page12#mdu7" name="Calendar Events" gr:x="0" gr:y="135" entity="ent1" displayAttributes="ent1#att3 ent1#att2 ent1#att15 ent1#att5 ent1#att28a ent1#att29a ent1#att16 ent1#att6 ent1#att12 ent1#att13">
+    <MultiDataUnit id="mov1#mpkg3#hym11#page12#mdu7" name="Calendario de Eventos" gr:x="0" gr:y="135" entity="ent1" displayAttributes="ent1#att3 ent1#att2 ent1#att15 ent1#att5 ent1#att28a ent1#att29a ent1#att16 ent1#att6 ent1#att12 ent1#att13">
       <Selector id="mov1#mpkg3#hym11#page12#mdu7#su69" defaultPolicy="fill" booleanOperator="and">
-        <RelationshipRoleCondition id="mov1#mpkg3#hym11#page12#mdu7#su69#rcond12" name="Calendar" predicate="in" implied="false" role="rel22#role11"/>
-        <AttributesCondition id="mov1#mpkg3#hym11#page12#mdu7#su69#acond11" name="Start Date" predicate="eq" booleanOperator="or" implied="true" attributes="ent1#att3"/>
+        <RelationshipRoleCondition id="mov1#mpkg3#hym11#page12#mdu7#su69#rcond12" name="Calendario" predicate="in" implied="false" role="rel22#role11"/>
+        <AttributesCondition id="mov1#mpkg3#hym11#page12#mdu7#su69#acond11" name="Fecha de Comienzo" predicate="eq" booleanOperator="or" implied="true" attributes="ent1#att3"/>
       </Selector>
       <SortAttribute attribute="ent1#att3" order="ascending"/>
     </MultiDataUnit>
-    <DataUnit id="mov1#mpkg3#hym11#page12#dau4" name="My Calendar" gr:x="10" gr:y="0" entity="ent3" displayAttributes="ent3#att9 ent3#att11 ent3#att10">
+    <DataUnit id="mov1#mpkg3#hym11#page12#dau4" name="Mi Calendario" gr:x="10" gr:y="0" entity="ent3" displayAttributes="ent3#att9 ent3#att11 ent3#att10">
       <Selector id="mov1#mpkg3#hym11#page12#dau4#su70" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="mov1#mpkg3#hym11#page12#dau4#su70#kcond26" name="Calendar" predicate="in" implied="false"/>
+        <KeyCondition id="mov1#mpkg3#hym11#page12#dau4#su70#kcond26" name="Calendario" predicate="in" implied="false"/>
       </Selector>
     </DataUnit>
   </ContentUnits>

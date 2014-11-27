@@ -1,11 +1,11 @@
 <MasterPage xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="-540" gr:y="745" id="sv2#mpage2" name="Master Page">
   <ContentUnits>
-    <GetUnit id="sv2#mpage2#gtu2g" name="Get Current User" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
+    <GetUnit id="sv2#mpage2#gtu2g" name="Obtener usuario Actual" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
       <Link id="sv2#mpage2#gtu2g#ln3g" name="Link54" to="sv2#mpage2#dau2g" type="transport" automaticCoupling="true" validate="true"/>
     </GetUnit>
-    <DataUnit id="sv2#mpage2#dau2g" entity="User" name="User" gr:x="160" gr:y="0" linkOrder="sv2#mpage2#dau2g#ln5g" displayAttributes="userName">
+    <DataUnit id="sv2#mpage2#dau2g" entity="User" name="Usuario" gr:x="160" gr:y="0" linkOrder="sv2#mpage2#dau2g#ln5g" displayAttributes="userName">
       <Selector id="sv2#mpage2#dau2g#su4g" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv2#mpage2#dau2g#su4g#kcond4g" predicate="in" implied="false" name="User"/>
+        <KeyCondition id="sv2#mpage2#dau2g#su4g#kcond4g" predicate="in" implied="false" name="Usuario"/>
       </Selector>
       <Link id="sv2#mpage2#dau2g#ln5g" name="Logout" to="sv2#lou1" type="normal" validate="true"/>
     </DataUnit>

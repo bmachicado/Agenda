@@ -1,4 +1,4 @@
-<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg2#opm2#opg5" name="Compose And Send Message" transaction="false" gr:x="325" gr:y="-230">
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#mpkg2#opm2#opg5" name="componer y enviar mensaje" transaction="false" gr:x="325" gr:y="-230">
   <OperationUnits>
     <SelectorUnit id="mov1#mpkg2#opm2#opg5#seu6" name="Select Appointment Information" gr:x="0" gr:y="150" entity="ent1">
       <Selector id="mov1#mpkg2#opm2#opg5#seu6#su47" defaultPolicy="fill" booleanOperator="and">
